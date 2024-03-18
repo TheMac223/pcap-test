@@ -1,13 +1,10 @@
 #include <pcap.h>
 #include <stdbool.h>
 #include <stdio.h>
-#include <arpa/inet.h>
-#include <netinet/if_ether.h>
 #include <netinet/ether.h>
-#include <netinet/ip.h>
-#include <netinet/tcp.h>
 
 #define ETHER_ADDR_LEN 6
+
 
 #ifndef ETHERTYPE_IP
 #define ETHERTYPE_IP            0x0800  /* IP protocol */
